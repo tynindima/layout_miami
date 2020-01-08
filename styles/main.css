@@ -166,13 +166,13 @@
     margin: 12px 0 35px;
     line-height: 1;
     font-weight: 500; }
-    .gallery__caption a {
-      text-decoration: none;
-      color: #00aaef;
-      -webkit-transition: color 0.2s;
-      transition: color 0.2s; }
-      .gallery__caption a:hover {
-        color: #2f80ed; }
+  .gallery__link {
+    text-decoration: none;
+    color: #00aaef;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
+    .gallery__link:hover {
+      color: #2f80ed; }
   .gallery__button {
     margin: 44px auto 0; }
 
@@ -361,13 +361,13 @@
   .contacts__text {
     font-size: 24px;
     margin-bottom: 30px; }
-    .contacts__text a {
-      text-decoration: none;
-      color: black;
-      -webkit-transition: color 0.2s;
-      transition: color 0.2s; }
-      .contacts__text a:hover {
-        color: #2f80ed; }
+  .contacts__link {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
+    .contacts__link:hover {
+      color: #2f80ed; }
   .contacts__form {
     grid-template-rows: 54px 54px 166px 54px; }
 
