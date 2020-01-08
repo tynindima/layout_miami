@@ -147,8 +147,8 @@
   .photos__img {
     height: 261px;
     width: calc(50% - 10px);
-    -o-object-fit: fill;
-       object-fit: fill;
+    -o-object-fit: cover;
+       object-fit: cover;
     -o-object-position: center;
        object-position: center; }
   .photos_first-more .photos__img:first-child {
@@ -159,6 +159,16 @@
     width: calc(34% - 10px); }
   .photos_second-more .photos__img:last-child {
     width: calc(66% - 10px); }
+
+@media screen and (max-width: 1005px) {
+  .photos_first-more .photos__img:first-child {
+    width: calc(50% - 10px); }
+  .photos_first-more .photos__img:last-child {
+    width: calc(50% - 10px); }
+  .photos_second-more .photos__img:first-child {
+    width: calc(50% - 10px); }
+  .photos_second-more .photos__img:last-child {
+    width: calc(50% - 10px); } }
 
 .gallery {
   position: relative; }
